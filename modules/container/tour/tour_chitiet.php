@@ -34,10 +34,6 @@ if (isset($_SESSION['khongcungdonvi'])) {
                     <span style="color:var(--color-main); font-weight:700">Chi tiết</span>
                 </p>
             </div>
-            <div class="col l-6 c-6 right">
-                <p>Chi tiết tour</p>
-                <a href="quanly/modules/container/quanly_tour/tour_download_chitiet.php?namefile=<?php echo $tour_chitiet_row['chitiet_tourdulich'] ?>" class="btn-s btn-main container-detail-btn-back"><i class="ti-download"></i></a>
-            </div>
         </div>
         <div class="row">
             <div class="col l-6 c-12">

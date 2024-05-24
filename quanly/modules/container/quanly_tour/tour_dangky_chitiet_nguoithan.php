@@ -23,7 +23,6 @@
                 <td>Số Điện Thoại</td>
                 <td>CCCD/CMND</td>  
                 <td>Giới Tính</td>
-                <td>Quan Hệ</td>
             </tr>
         </thead>
         <tbody>
@@ -38,7 +37,6 @@
                 <td><?php echo $dk_chiitet_row['sdt_dangkytour_chitiet']?></td>
                 <td><?php echo $dk_chiitet_row['cccd_dangkytour_chitiet']?></td>
                 <td><?php if($dk_chiitet_row['gioitinh_dangkytour_chitiet'] == 'nam'){echo 'Nam';}else{echo 'Nữ';} ?></td>
-                <td><?php if($dk_chiitet_row['quanhe_dangkytour_chitiet'] == 'daidien'){echo 'Đại diện';}else{echo 'Người Thân';} ?></td>
             </tr>
             <?php
                 }

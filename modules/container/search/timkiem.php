@@ -16,20 +16,6 @@ $diadiem_query = mysqli_query($mysqli, $diadiem_select);
                 <div class="content__body-search">
                     <div class="form-control">
                         <input type="text" name="keyword" placeholder="Nhập tên tour..." class="form-control-input">
-                        <span class="form-control-label">Đơn vị:</span>
-                        <select name="donvi" class="form-control-select">
-                            <option value="-1">------</option>
-                            <option value="0">Tất cả</option>
-                            <?php
-                            while ($donvi_row = mysqli_fetch_array($donvi_query)) {
-                            ?>
-                                <option value="<?php echo $donvi_row['id_donvi'] ?>"><?php echo $donvi_row['ten_donvi'] ?>
-                                </option>
-                            <?php
-                            }
-                            ?>
-                        </select>
-
                         <span class="form-control-label">Địa điểm:</span>
                         <select name="diadiem" class="form-control-select">
                             <option value="0">Tất cả</option>

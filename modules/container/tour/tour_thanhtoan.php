@@ -98,7 +98,6 @@
                                                 </p>
                                                 <p>Tên: <?php echo $ten_ve ?></p>
                                                 <p>SĐT: <?php echo $sdt_ve ?></p>
-                                                <p>Quan hệ: <?php echo $quanhe_ve ?></p>
                                             </div>
                                         </div>
                                         <div class="col l-6 c-0">

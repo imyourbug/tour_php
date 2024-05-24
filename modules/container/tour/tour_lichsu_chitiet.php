@@ -101,7 +101,6 @@
                                 <td>SĐT</td>
                                 <td>CCCD</td>
                                 <td>Giới tính</td>
-                                <td>Quan hệ</td>
                                 <td>Thành tiền</td>
                                 <td>Trang thái</td>
                                 <td>Cập nhật</td>
@@ -122,8 +121,6 @@
                                 <td><?php echo $dangkytour_chitiet_row['sdt_dangkytour_chitiet'] ?></td>
                                 <td><?php echo $dangkytour_chitiet_row['cccd_dangkytour_chitiet'] ?></td>
                                 <td><?php if($dangkytour_chitiet_row['gioitinh_dangkytour_chitiet'] == 'nam'){echo 'Nam';}else{echo 'Nữ';} ?>
-                                </td>
-                                <td><?php if($dangkytour_chitiet_row['quanhe_dangkytour_chitiet'] == 'daidien'){echo 'Đại diện';}else{echo 'Người Thân';} ?>
                                 </td>
                                 <td><?php echo number_format($dangkytour_chitiet_row['thanhtien_dangkytour_chitiet'],0,',',',')?>đ
                                 </td>

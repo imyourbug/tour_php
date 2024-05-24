@@ -120,7 +120,6 @@ if (isset($_SESSION['huytour'])) {
                                     <td>SĐT</td>
                                     <td>CCCD/CMND</td>
                                     <td>Giới tính</td>
-                                    <td>Quan hệ</td>
                                     <td>Xóa vé</td>
                                 </tr>
                             </thead>
@@ -157,7 +156,6 @@ if (isset($_SESSION['huytour'])) {
                                             <td><?php echo $sdt_ve ?></td>
                                             <td><?php echo $cccd_ve ?></td>
                                             <td><?php echo $gioitinh_ve ?></td>
-                                            <td><?php echo $quanhe_ve ?></td>
                                             <td>
                                                 <p class="container-cart__control-text-child"><a href="modules/container/tour/tour_dattour_xuly.php?xoave=<?php echo $i ?>" onclick="return confirm('Bạn chắc chắn muốn xóa vé?');" class="a-defaul"><i class="fa-solid fa-xmark"></i></a></p>
                                             </td>
@@ -214,10 +212,9 @@ if (isset($_SESSION['huytour'])) {
                                                 <option value="nu">Nữ</option>
                                             </select>
                                         </div>
-                                        <div class="form-input container-cart__form-group">
+                                        <div style="display:none" class="form-input container-cart__form-group">
                                             <span class="container-cart__form-label">Quan hệ: <span class="error-txt">*</span></span>
                                             <select name="quanhe_ve" class="input-df input-df-date container-cart__form-input">
-                                                <!-- <option value="daidien">Đại diện</option> -->
                                                 <option value="nguoithan">Người thân</option>
                                             </select>
                                         </div>

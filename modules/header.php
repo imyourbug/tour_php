@@ -30,17 +30,12 @@
         <li class="header__list-item">
             <a href="?select=tour&query=danhsach" class="header__list-item-link">Danh sách tour</a>
         </li>
-        <li class="header__list-item">
-            <a href="quanly/modules/container/quanly_hdsd/hdsd_download.php?hdsd=1" class="header__list-item-link">Hướng dẫn sử dụng <i class="ti-download"></i></a>
-        </li>
     </ul>
     <ul class="header__list">
         <?php 
             if(isset($_SESSION['user_login']))
             {
         ?>
-        <li class="header__list-item"><a href="?select=tour&query=likedall" class="header__list-item-link">Yêu thích <i
-                    class="fa-solid fa-heart"></i></a></li>
         <li class="header__list-item"><a href="?select=tour&query=dattour" class="header__list-item-link">Giỏ hàng <i
                     class="fa-solid fa-cart-shopping"></i></a></li>
         <?php
